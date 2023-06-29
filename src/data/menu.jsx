@@ -123,7 +123,45 @@ export default function menu() {
         ],
       },
       carne: {
-        vaca: [
+        tipo1: [
+          {
+            name: "BEEF A PORTUGUESA",
+            price: "7.000",
+          },
+          {
+            name: "BITOQUE",
+            price: "5.500",
+          },
+          {
+            name: "ENTRECOSTO",
+            price: "6.000",
+          },
+          {
+            name: "LOMBO GRELHADO",
+            price: "8.500",
+          },
+          {
+            name: "",
+            price: "",
+          },
+          {
+            name: "",
+            price: "",
+          },
+          {
+            name: "",
+            price: "",
+          },
+          {
+            name: "",
+            price: "",
+          },
+          {
+            name: "",
+            price: "",
+          },
+        ],
+         tipo2: [
           {
             name: "BEEF A PORTUGUESA",
             price: "7.000",

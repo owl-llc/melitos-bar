@@ -258,15 +258,15 @@ export function Home() {
           className={`${styles["skills"]} ${styles["section"]}`}
           id="food"
         >
-          <span className={styles["section-subtitle"]}>Carnes</span>
-          <h2 className={styles["section-title"]}>Pratos de Carne</h2>
+          {/* <span className={styles["section-subtitle"]}>Carnes</span>
+          <h2 className={styles["section-title"]}>Pratos de Carne</h2> */}
 
           <div
             className={`${styles["skills__container"]} ${styles["bd-grid"]}`}
           >
             <div className={styles["skills__content"]}>
-              <h3 className={styles["skills__subtitle"]}>Vaca</h3>
-              {menu().pratos.peixe.doMar.map((value) => {
+              <h3 className={styles["skills__subtitle"]}>Pratos da Terra</h3>
+              {menu().pratos.carne.tipo1.map((value) => {
                 return (
                   <Skill nameSkill={value.name} xp={100} price={value.price} />
                 );
@@ -275,29 +275,9 @@ export function Home() {
 
             <div className={styles["skills__content"]}>
               <h3 className={styles["skills__subtitle"]}>
-                Outros pratos de Peixe
+                Outros Pratos da Terra
               </h3>
-              {menu().pratos.peixe.outros.map((value) => {
-                return (
-                  <Skill nameSkill={value.name} xp={100} price={value.price} />
-                );
-              })}
-            </div>
-
-            <div className={styles["skills__content"]}>
-              <h3 className={styles["skills__subtitle"]}>
-                Pratos de Carne (Vaca)
-              </h3>
-              {menu().pratos.carne.vaca.map((value) => {
-                return (
-                  <Skill nameSkill={value.name} xp={100} price={value.price} />
-                );
-              })}
-            </div>
-
-            <div className={styles["skills__content"]}>
-              <h3 className={styles["skills__subtitle"]}>kkkk</h3>
-              {menu().fish.map((value) => {
+              {menu().pratos.carne.tipo2.map((value) => {
                 return (
                   <Skill nameSkill={value.name} xp={100} price={value.price} />
                 );
