@@ -34,7 +34,7 @@ export function Footer(props) {
         </div>
 
         <p className={`${styles["footer__copy"]}`}>
-          Todos os direitos reservados por <a href="">Eládio</a> - {currentYear()}
+          Todos os direitos reservados por <a href="https://expressers.ao" target="_blank">Expressers.ao</a> - {currentYear()}
         </p>
       </div>
     </footer>
