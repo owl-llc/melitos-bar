@@ -140,26 +140,6 @@ export default function menu() {
             name: "LOMBO GRELHADO",
             price: "8.500",
           },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
-          },
         ],
          tipo2: [
           {
@@ -177,26 +157,6 @@ export default function menu() {
           {
             name: "LOMBO GRELHADO",
             price: "8.500",
-          },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
-          },
-          {
-            name: "",
-            price: "",
           },
         ],
       },
